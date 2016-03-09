@@ -1,0 +1,12 @@
+                        <article class="box post">
+                            {% for post in site.posts offset: 0 limit: 1 %}
+                                <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+                                <header>
+                                    <h2>{{ post.title }}</h2>
+                                </header>
+                                {{ post.excerpt }}
+                                <footer>
+                                    <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+                                </footer>
+                            {% endfor %}
+                        </article>

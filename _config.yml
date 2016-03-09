@@ -1,0 +1,15 @@
+# Site wide configuration
+
+name: Lists and Plot Twists
+locale: en_US
+description: The Orderly and Disorderly Stories of Life
+paginate: 10
+baseurl:
+
+owner:
+  name: Aditi Rajagopal
+  email: araja@umich.edu
+  twitter: aditi_rajagopal
+  linkedin: aditirajagopal
+  instagram: aditi_rajagopal
+  pinterest: aditirajagopal
