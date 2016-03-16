@@ -1,0 +1,78 @@
+{% include header.html %}
+{% include header_landing.html %}
+<body class="left-sidebar">
+<!-- Main -->
+  <div id="main-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="4u">
+          <!-- Sidebar -->
+          <section class="box profile-left">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+            {{ page.podcast }}
+          </section>
+        </div>
+        <div class="8u skel-cell-important">
+
+        <!-- Content -->
+          <article class="box post profile-right">
+            <header>
+              <h2 id="profile-title">Meet {{ page.title }}</h2>
+            </header>
+            <section>
+              {{ page.content }}
+              <p>Posted {{ page.date | date_to_string }}</p>
+            </section>
+          </article>
+        </div>
+      </div>
+      <div class="row">
+        <div class="4u">
+          <!-- Sidebar -->
+          <header class="major">
+            <h2>Favorite Read</h2>
+          </header>
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.rec_image1 }}" alt="" /></a>
+            {{ page.rec_description1 }}
+          </section>
+        </div>
+        <div class="4u">
+          <!-- Sidebar -->
+          <header class="major">
+            <h2>Favorite Listen</h2>
+          </header>
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.rec_image2 }}" alt="" /></a>
+            {{ page.rec_description2 }}
+          </section>
+        </div>
+        <div class="4u">
+          <!-- Sidebar -->
+          <header class="major">
+            <h2>Favorite Place</h2>
+          </header>
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.rec_image3 }}" alt="" /></a>
+            {{ page.rec_description3 }}
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="12u">
+          <!-- Blog -->
+          <section>
+            <header class="major">
+              <h2>Fun Facts</h2>
+            </header>
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.fun_facts }}" alt="" /></a>
+          </section>
+        </div>
+      </div>
+
+      <br>
+      <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.header }}" alt="" /></a>
+
+    </div>
+  </div>
+{% include footer.html %}
