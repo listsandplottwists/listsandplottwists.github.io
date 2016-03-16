@@ -1,0 +1,23 @@
+    <div class="row">
+        <div class="12u">
+            <!-- Recent Posts -->
+            <section>
+                <header class="major">
+                    <h2>Podcast Episodes</h2>
+                </header>
+                <div class="row">
+                {% for post in site.posts offset: 0 limit: 3 %}
+                    <div class="4u">
+                        <section class="box">
+                            <header>
+                                <a href="{{ site.baseurl }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                                {{ post.podcast }}
+                                <p>Posted {{ post.date | date_to_string }}</p>
+                            </header>
+                        </section>
+                    </div>
+                {% endfor %}
+                </div>
+            </section>
+        </div>
+    </div>
