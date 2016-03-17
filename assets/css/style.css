@@ -300,6 +300,18 @@
 				width: auto;
 			}
 
+	/* Featured Post */
+		.featuredpost{
+			background: #ffffff;
+			border-bottom: solid 1px #ccc;
+		}
+
+			.featuredpost .image.featured
+			{
+				position: relative;
+				width: auto;
+			}
+
 	/* Button */
 
 		input[type="button"],

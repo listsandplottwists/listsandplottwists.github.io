@@ -1,12 +1,35 @@
-                        <article class="box post">
-                            {% for post in site.posts offset: 0 limit: 1 %}
-                                <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.header }}" alt="" /></a>
-                                <header>
-                                    <h2>{{ post.title }}</h2>
-                                </header>
-                                {{ post.excerpt }}
-                                <footer>
-                                    <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
-                                </footer>
-                            {% endfor %}
-                        </article>
+    <article class="box post">
+        {% for post in site.posts offset: 0 limit: 1 %}
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.header }}" alt="" /></a>
+            <header>
+                <h2>{{ post.title }}</h2>
+            </header>
+            {{ post.excerpt }}
+            <footer>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+            </footer>
+        {% endfor %}
+    </article>
+
+      <div class="row featuredpost">
+        {% for post in site.posts offset: 0 limit: 1 %}
+        <div class="8u skel-cell-important">
+        <!-- Content -->
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.header }}" alt="" /></a>
+            <header>
+              <h2>Meet {{ post.title }}</h2>
+            </header>
+            {{ post.excerpt }}
+            <section>
+              <p>Posted {{ post.date | date_to_string }}</p>
+            </section>
+        </div>
+        <div class="4u">
+          <!-- Sidebar -->
+            {{ post.podcast }}
+            <footer>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+            </footer>
+        </div>
+        {% endfor %}
+      </div>
