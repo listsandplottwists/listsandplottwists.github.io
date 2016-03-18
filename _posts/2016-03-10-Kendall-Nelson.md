@@ -17,4 +17,4 @@ rec_description3: <u>Hyperbole and a Half</u> by Allie Brosh
 ---
 
 <p>Kendall Nelson is a Software Developer working on Cinder since she started in June of 2015.  She has worked on some smaller scheduler changes to Cinder and a larger effort to make the sample configuration file generation a more dynamic process.  She has also recently been working on researching a dynamic reconfiguration of the configuration file and been dabbling in some smaller os-brick issues.  In addition, she has taken on the cross project liaison position for Cinder and given many intro to Cinder presentations to IBMers getting into cloud computing.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>.</p>
