@@ -16,5 +16,5 @@ rec_image3: /assets/images/aditi_rec1.png
 rec_description3: <u>Hyperbole and a Half</u> by Allie Brosh
 ---
 
-<p>An engineer, Working mom of two, A Technologista, Travel enthusiast, Book lover, Legal alien, unapologetically curious with an open mind and a strong point of view</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p> A quintessential explorer, Aparna has an insatiable curiosity and a desire to learn through new experiences. She is an engineer who does not fit one mold; she has build microchips, lead technical presales in China and today as “Technology Innovation Program Lead” at IBM – she is responsible for fostering technical innovation which matters to the clients! A born traveller – As an Army brat, she moved every 2 years and today she takes her two boys aged 5 and 1.5 years everywhere, including most recently to Cambodia and Thailand.  </p>
+<p>A born traveller – As an Army brat, she moved every 2 years and today she takes her two boys aged 5 and 1.5 years everywhere, including most recently to Cambodia and Thailand. A book lover - you will always find a book near her bed.</p>
