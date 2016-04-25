@@ -2,7 +2,7 @@
 title: Aparna Prabhakar
 featured: /assets/images/aparna.png
 layout: profile-post
-categories: explorer, nurturer
+categories: explorer nurturer
 excerpt: "An engineer, Working mom of two, A Technologista, Travel enthusiast, Book lover, Legal alien, unapologetically curious with an open mind and a strong point of view"
 tags: []
 date: 2016-03-10

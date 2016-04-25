@@ -5,7 +5,6 @@ body,input,textarea,select{
 /* Section/Article */
 
 header{
-    margin-top: -10em;
 }
 
 	header.major{
@@ -58,6 +57,7 @@ ul.social{
 /*********************************************************************************/
 
 	#header{
+    margin-top: -10em;
 	}
 	
 		#header h1{
@@ -109,14 +109,7 @@ ul.social{
         margin: 0px 1em 0 1em;
     }
 
-/*    .nav li:nth-child(1), .nav li:nth-child(2), .nav li:nth-child(3), .nav li:nth-child(4) {
-        float: none;
-    }
-
-    .nav li:nth-child(5), .nav li:nth-child(6), .nav li:nth-child(7), .nav li:nth-child(8) {
-        float: none;
-    }
-*/}
+}
 
 /*********************************************************************************/
 /* Copyright                                                                     */

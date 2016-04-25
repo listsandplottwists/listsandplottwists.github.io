@@ -26,7 +26,6 @@
 
 		header
 		{
-	    margin-top: -3em;
 		}
 		
 		footer
@@ -276,6 +275,7 @@
 
 	#header
 	{
+	  margin-top: -3em;
 		text-align: center;
 	}
 	
@@ -292,12 +292,7 @@
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-		display: none;
-	}
-
-	#socialnav
+	.nav
 	{
 		display: none;
 	}
