@@ -6,9 +6,14 @@
 		letter-spacing: 0;
 	}
 
-	h2, h3, h4, h5, h6
+	h2, h3
 	{
 		font-size: 1.25em;
+	}
+
+	h4, h5, h6
+	{
+		font-size: 0.6em;
 	}
 
 	/* Section/Article */
@@ -21,7 +26,7 @@
 
 		header
 		{
-			margin: 0 0 1em 0;
+	    margin-top: -3em;
 		}
 		
 		footer
@@ -227,7 +232,7 @@
 
 	#header-wrapper
 	{
-		padding: 2em 0;
+		padding: 5em 0 6em 0;
 	}
 
 	#footer-wrapper
@@ -276,11 +281,11 @@
 	
 		#header h1
 		{
-			color: #252122;
+			color: #fff;
 			font-weight: 900;
-			font-size: 1.75em;
+			font-size: 1.35em;
 			letter-spacing: -0.035em;
-			margin-bottom: 0.5em;
+			margin: 1em 0 0 0;
 		}
 
 /*********************************************************************************/
@@ -295,6 +300,19 @@
 	#socialnav
 	{
 		display: none;
+	}
+
+	#logo h1 {
+		font-size: 1.25em;
+		margin-bottom: -0.5em;
+		color: #fff;
+	}
+
+	#logo h4 {
+		font-size: 0.57em;
+	  z-index: 1;
+	  font-style: italic;
+	  color:#8D9CB7;
 	}
 
 /*********************************************************************************/

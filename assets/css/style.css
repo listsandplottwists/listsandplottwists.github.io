@@ -691,17 +691,42 @@
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
-	#nav
-	{
-		font-family:lato;
-		text-transform: uppercase;
-		font-style: none;
+#logo {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    z-index: -1;
+}
+
+.nav li  > a{
+  display: inline;
+  margin-right: 1em;
+	border-radius: 5px;
+	color: #CECECE;
+	text-decoration: none;
+	padding: 0.6em 1.2em 0.6em 1.2em;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-o-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+	outline: 0;
+}
+
+.nav > li:hover{
+}
+
+	.nav > li:hover > a{
+		background: #f3f3f3;
 	}
-	#banner
+
+#banner
 	{
-		background: #CCE8F4 url('../images/pic01.jpg');
-		background-position: center center;
-		background-size: auto 100%;
+		background: #CCE8F4 url('../images/header.png');
+/*		background-position: center center;
+*/		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -732,9 +757,16 @@
 
 	#header-wrapper
 	{
+		background: #CCE8F4 url('../images/header.jpg');
+		background-position: center center;
+		background-size: cover;
+/*		
+		height: 0;
+		background-repeat: no-repeat;
+		text-align: center;
 		position: relative;
-		background: #ffffff;
 		border-bottom: solid 1px #ccc;
+*/		z-index: -1;
 	}
 
 	#main-wrapper

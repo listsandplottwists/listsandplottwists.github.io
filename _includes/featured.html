@@ -1,12 +1,19 @@
-                        <article class="box post">
-                            {% for post in site.posts offset: 0 limit: 1 %}
-                                <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.header }}" alt="" /></a>
-                                <header>
-                                    <h2>{{ post.title }}</h2>
-                                </header>
-                                {{ post.excerpt }}
-                                <footer>
-                                    <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
-                                </footer>
-                            {% endfor %}
-                        </article>
+                    <div class="row" style="background-color:#fff">
+                        <div class="6u skel-cell-important">
+
+                            <img src="/assets/images/venn_diagram.jpg">
+
+
+                        </div>
+                        <div class="6u skel-cell-important">
+
+                                <article class="box post">
+                                    <p>We are seeking and sharing inspiration for the personal and professional - knowlingly or unknowlingly.
+                                        Every journey has a story behind it, and we are looking to bring forth [...]</p>
+                                    <footer>
+                                        <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+                                    </footer>
+                                </article>
+
+                        </div>
+                    </div>
