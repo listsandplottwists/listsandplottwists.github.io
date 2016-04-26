@@ -14,7 +14,7 @@ h3{
 /* Section/Article */
 
 header{
-	margin: 0 0 1.5em 0;
+    margin-top: -12em;
 }
 	
 	header > p{
@@ -121,7 +121,7 @@ ul.social{
 /*********************************************************************************/
 
 #header-wrapper{
-	padding: 4.5em 0 2em 0;
+	padding: 16em 0 16em 0;
 }
 
 #main-wrapper{
@@ -149,7 +149,7 @@ ul.social{
 }
 
 	#header h1{
-		color: #252122;
+		color: #fff;
 		font-weight: 900;
 		font-size: 2.5em;
 		letter-spacing: -0.035em;
@@ -159,6 +159,35 @@ ul.social{
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
+
+/* use media query to change the layout */
+@media  (min-width: 1000px) {
+
+    .nav {
+        margin: -80px 1em 0 1em;
+    }
+
+/*    .nav li:nth-child(1), .nav li:nth-child(2), .nav li:nth-child(3), .nav li:nth-child(4) {
+        float: left;
+    }
+
+    .nav li:nth-child(5), .nav li:nth-child(6), .nav li:nth-child(7), .nav li:nth-child(8) {
+        float: right;
+    }
+*/}
+
+#logo h1 {
+	font-size: 3em;
+	margin-bottom: 0.5em;
+	color: #fff;
+}
+
+#logo h4 {
+	font-size: 1.25em;
+  z-index: 1;
+  font-style: italic;
+  color:#8D9CB7;
+}
 
 #nav{
 }
@@ -179,7 +208,7 @@ ul.social{
 	
 		#nav > ul > li > a{
 			border-radius: 5px;
-			color: #5d5d5d;
+			color: #CECECE;
 			text-decoration: none;
 			padding: 0.6em 1.2em 0.6em 1.2em;
 			-moz-transition: background-color .25s ease-in-out;
