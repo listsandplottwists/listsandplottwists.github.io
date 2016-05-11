@@ -3,25 +3,25 @@
 <div id="header-wrapper">
   <div id="header">
     <div id="logo">
-          <h1><a href="{{ site.baseurl }}/index.html">{{ site.name }}</a></h1>
+        <img src="{{ site.baseurl}}/assets/images/LPFavorite.png" alt="Lists and Plot Twists - Orderly and Disorderly Life Stories">
+<!--           <h1><a href="{{ site.baseurl }}/index.html">{{ site.name }}</a></h1>
           <h4>{{ site.description }}</h4><br>
-    </div>
+ -->    </div>
     <nav id="nav" style="display:inline"> 
       <ul class="nav">
           {% assign current = page.url | downcase | split: '/' %}
           <li {% if current[1] == '{{ site.baseurl }}/index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
           <li {% if current[1] == '{{ site.baseurl }}/about.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
           <li {% if current[1] == '{{ site.baseurl }}/series.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/series.html">Series</a></li>
-          <li {% if current[1] == '{{ site.baseurl }}/nominate.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/nominate.html">Nominate</a></li>
-          <li {% if current[1] == '{{ site.baseurl }}/contact.html' %}class='current'{% endif %}>
-            <a href="{{ site.baseurl }}/contact.html">Contact</a>
-            <ul class="subnav">
+          <li {% if current[1] == '{{ site.baseurl }}/nominate.html' %}class='current'{% endif %}>
+            <a href="{{ site.baseurl }}/nominate.html">Nominate/Contact</a>
+<!--             <ul class="subnav">
               <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
               <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
               <li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
               <li><a class="icon fa-soundcloud" href="#"><span class="label">Soundcloud</span></a></li>
             </ul>
-          </li>
+ -->          </li>
     </nav>
   </div>
 </div>

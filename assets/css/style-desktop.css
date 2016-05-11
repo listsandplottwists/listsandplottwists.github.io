@@ -120,7 +120,7 @@ ul.social{
 /*********************************************************************************/
 
 #header-wrapper{
-	padding: 16em 0 16em 0;
+	padding: 11.5em 0 1em 0;
 }
 
 #main-wrapper{
@@ -144,7 +144,7 @@ ul.social{
 /*********************************************************************************/
 
 #header{
-  margin-top: -12em;
+  margin-top: -10em;
 	text-align: center;
 }
 
@@ -189,6 +189,9 @@ ul.social{
   color:#8D9CB7;
 }
 
+#logo img {
+	height: 12em;
+}
 #nav{
 }
 

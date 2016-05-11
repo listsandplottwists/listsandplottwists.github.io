@@ -1,20 +1,24 @@
-                    <div class="row" style="background-color:#fff">
-                        <div class="6u skel-cell-important">
+<div class="right-sidebar" style="background:url('https://c1.staticflickr.com/3/2906/14535886776_0309ecc847_b.jpg')">
+  <div class="row">
+    <div class="6u skel-cell-important">
 
-                            <img src="/assets/images/venn_diagram.jpg">
+      <article class="box post" style="margin:4em">
+        <p>Knowingly and unknowingly we are always seeking inspiration...<br><br>
+        <b>Lists</b> are.....<br><br>
+        <b>“Plot Twists”</b> are the rule of nature and weaving these twists into the fabric of life is a narrative that makes ordinary people "extraordinary".<br><br>
+        This blog and podcast is our attempt to showcase and offer more than just a glimpse into the lives of these ordinary yet extraordinary people. </p>
+        <footer>
+          {% for post in site.posts offset: 0 limit: 1 %}
+          <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Check out Our Recent Post</a>
+          {% endfor %}
+        </footer>
+      </article>
 
+    </div>
+    <div class="4u skel-cell-important">
 
-                        </div>
-                        <div class="6u skel-cell-important">
+      <img src="/assets/images/LPVertical.png" style="height:35em; opacity:0.90; margin:2em">
 
-                                <article class="box post">
-                                    <p>Knowingly and unknowingly we are always trying to bring order to our lives by making <b>"Lists"</b>, but we forget that <b>"Plot Twists" </b> are the rule of nature!!<br><br> 
-                                    Weaving these twists into fabric of life while managing the ever growing lists is the narrative that forms central identity of women in this <b>“Blog and Podcast series”</b> <br><br>
-                                    This is our attempt to offer more than just a glimpse into lives of these ordinary yet extraordinary women, who manage the orderly and disorderly stories of thier lives on both personal and professional fronts. </p>
-                                    <footer>
-                                        <a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Check out Our Recent Post</a>
-                                    </footer>
-                                </article>
-
-                        </div>
-                    </div>
+    </div>
+  </div>
+</div>
