@@ -762,12 +762,12 @@
 
 #banner
 	{
-		background: #CCE8F4 url('../images/header.png');
-/*		background-position: center center;
-*/		background-size: cover;
+/*		background: #CCE8F4 url('../images/header.png');
+		background-position: center center;
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
-	}
+*/	}
 
 		#banner header
 		{
@@ -802,8 +802,9 @@
 
 	#header-wrapper
 	{
-		background: #CCE8F4 url('../images/header.jpg');
-		background-position: center center;
+		background: #456CB1;
+/*		url('../images/header.jpg');
+*/		background-position: center center;
 		background-size: cover;
 /*		
 		height: 0;

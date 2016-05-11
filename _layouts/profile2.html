@@ -4,31 +4,16 @@
     <!-- Main -->
     <div id="main-wrapper">
       <div class="container">
-<!--             <article class="box post">
-              <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-              <header>
-                <h2>{{ page.title }}</h2>
-                <p>Posted {{ page.date | date_to_string }}</p>
-              </header>
-              <section>
-                {{ page.podcast }}
-              </section>
-            </article>
- -->
-
           <!-- Content -->
         <div class="row">
           <div class="5u -1u">
             <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-<!--               <section>
-                {{ page.podcast }}
-              </section>
- -->          </div>
+          </div>
           <div class="5u">
             <article class="box post">
               <h3 style="text-align:center">Meet</h3>
               <h2 id="profile-title">{{ page.title }}</h2>
-              <p style="padding:3em; text-align:center">I’m Aditi Rajagopal. I’m that short girl with the occasional soap box, and the diehard Michigan fan. I always have a side project or two and a couple of tricks up my sleeve.</p>
+              <p style="padding:3em; text-align:center"> {{ page.aboutme }} </p>
             </article>
 
           </div>
@@ -45,15 +30,15 @@
                 <h2>Fast Facts</h2>
               </header>
               <section>
-                  <p class="profile-text"><b>Years in the Field:</b> 2</p>
+                  <p class="profile-text"><b>Years in the Field:</b> {{ page.yearsinfield }} </p>
                   <hr class="fastfacts">
-                  <p class="profile-text"><b>Current Role:</b> Software Engineer, IBM</p>
+                  <p class="profile-text"><b>Current Role:</b> {{ page.role }} </p>
                   <hr class="fastfacts">
-                  <p class="profile-text"><b>Alma Mater:</b> University of Michigan</p>
+                  <p class="profile-text"><b>Alma Mater:</b> {{ page.almamater }} </p>
                   <hr class="fastfacts">
                   <p class="profile-text"><b>Interview Date:</b> {{ page.date | date_to_string }}</p>
                   <hr class="fastfacts">
-                  <p class="profile-text"><b>Personal Links:</b> @aditi_rajagopal, aditirajagopal.com</p>
+                  <p class="profile-text"><b>Personal Links:</b>  {{ page.links }} </p>
               </section>
             </article>
           </div>
@@ -62,4 +47,5 @@
     </div>
 
 </div>
+{% include storytellers.html %}
 {% include footer.html %}
